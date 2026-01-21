@@ -82,7 +82,7 @@ resource "aws_codepipeline" "terraform_pipeline_saikat" {
 
       configuration = {
         ConnectionArn    = aws_codestarconnections_connection.github_saikat.arn
-        FullRepositoryId = "unuste37/terraform-cicd-25dec" # owner/repo format
+        FullRepositoryId = "SaikatBhattacharjee/terraform-cicd" # owner/repo format
         BranchName       = "main"
       }
     }
