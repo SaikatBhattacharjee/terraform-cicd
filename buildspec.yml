@@ -19,4 +19,4 @@ phases:
       - terraform apply -auto-approve tfplan
 artifacts:
   files:
-    - '**/*
+    - '**/*'
